@@ -1,0 +1,30 @@
+name: PKG-ի կառուցում
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Armenian Phonetic · arm64
+    runs-on: xcode-27
+    timeout-minutes: 15
+    steps:
+      - name: Սկզբնական կոդի ստացում
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: PKG տեղադրիչի կառուցում
+        run: ./scripts/package.sh
+
+      - name: PKG ֆայլի պահպանում
+        uses: actions/upload-artifact@v7
+        with:
+          path: dist/ArmenianPhonetic-*-arm64.pkg
+          archive: false
+          if-no-files-found: error

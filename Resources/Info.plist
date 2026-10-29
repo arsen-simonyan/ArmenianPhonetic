@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TISIconIsTemplate</key>
+	<true/>
+	<key>TISIntendedLanguage</key>
+	<string>hy</string>
+	<key>TICapsLockLanguageSwitchCapable</key>
+	<false/>
+	<key>CFBundleIdentifier</key>
+	<string>local.arsen.inputmethod.ArmenianHYTest</string>
+	<key>CFBundleName</key>
+	<string>Armenian Phonetic</string>
+	<key>CFBundleDisplayName</key>
+	<string>Armenian Phonetic</string>
+	<key>CFBundleExecutable</key>
+	<string>ArmenianPhonetic</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleVersion</key>
+	<string>5</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>27.0</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>InputMethodConnectionName</key>
+	<string>local.arsen.inputmethod.ArmenianHYTest_Connection</string>
+	<key>InputMethodServerControllerClass</key>
+	<string>HYInputController</string>
+	<key>TISInputSourceID</key>
+	<string>local.arsen.inputmethod.ArmenianHYTest</string>
+	<key>tsInputMethodIconFileKey</key>
+	<string>HY.pdf</string>
+	<key>tsInputMethodCharacterRepertoireKey</key>
+	<array>
+		<string>Armn</string>
+	</array>
+	<key>ComponentInputModeDict</key>
+	<dict>
+		<key>tsInputModeListKey</key>
+		<dict>
+			<key>local.arsen.inputmethod.ArmenianHYTest.Armenian</key>
+			<dict>
+				<key>TISIconIsTemplate</key>
+				<true/>
+				<key>TISIntendedLanguage</key>
+				<string>hy</string>
+				<key>TICapsLockLanguageSwitchCapable</key>
+				<false/>
+				<key>TISInputSourceID</key>
+				<string>local.arsen.inputmethod.ArmenianHYTest.Armenian</string>
+				<key>tsInputModeIsVisibleKey</key>
+				<true/>
+				<key>tsInputModeDefaultStateKey</key>
+				<true/>
+				<key>tsInputModePrimaryInScriptKey</key>
+				<true/>
+				<key>tsInputModeScriptKey</key>
+				<string>smUnicodeScript</string>
+				<key>tsInputModeCharacterRepertoireKey</key>
+				<array>
+					<string>Armn</string>
+				</array>
+				<key>tsInputModeMenuIconFileKey</key>
+				<string>HY.pdf</string>
+				<key>tsInputModeAlternateMenuIconFileKey</key>
+				<string>HY.pdf</string>
+				<key>tsInputModePaletteIconFileKey</key>
+				<string>HY.pdf</string>
+			</dict>
+		</dict>
+		<key>tsVisibleInputModeOrderedArrayKey</key>
+		<array>
+			<string>local.arsen.inputmethod.ArmenianHYTest.Armenian</string>
+		</array>
+	</dict>
+	<key>InputMethodType</key>
+	<string>Keyboard</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>hy</string>
+</dict>
+</plist>
